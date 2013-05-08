@@ -63,6 +63,7 @@ extern MUS147AQPlayer* aqp;
 -(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [self doTouches:touches withEvent:event];
+    [aqp getVoice:1].amp = 0.;
 }
 
 @end
