@@ -18,6 +18,7 @@
 }
 
 // methods here
+-(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation;
 -(IBAction)setFreq0:(id)sender;
 -(IBAction)setAmp0:(id)sender;
 -(IBAction)setFreq1:(id)sender;
