@@ -70,7 +70,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setDKey:(id)sender
 {
-    [aqp getVoice:1].freq = 283.665;
+    [aqp getVoice:1].freq = 288.665;
     [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setDsKey:(id)sender
