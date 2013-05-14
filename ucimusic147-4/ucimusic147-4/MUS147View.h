@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MUS147ViewController.h"
 
 @interface MUS147View : UIView
 

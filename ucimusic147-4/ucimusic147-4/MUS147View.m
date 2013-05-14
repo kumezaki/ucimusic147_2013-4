@@ -35,12 +35,9 @@ extern MUS147AQPlayer* aqp;
 {
     for (UITouch* t in touches)
     {
-        CGPoint pt = [t locationInView:self];
-        Float64 x = pt.x/self.bounds.size.width;
-        Float64 y = pt.y/self.bounds.size.height;
-        
-        [aqp getVoice:1].freq = x * 2000.;
-        [aqp getVoice:1].amp = 1. - y;
+//        CGPoint pt = [t locationInView:self];
+//        Float64 x = pt.x/self.bounds.size.width;
+//        Float64 y = pt.y/self.bounds.size.height;        
     }
 }
 
