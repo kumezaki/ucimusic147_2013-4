@@ -208,16 +208,22 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<reference key="IBUIHighlightedTitleColor" ref="724244181"/>
+						<object class="NSColor" key="IBUIHighlightedTitleColor" id="523442399">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzE0IDAuMzA5ODAzOTIxNiAwLjUyMTU2ODYyNzUAA</bytes>
+						</object>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<object class="NSCustomResource" key="IBUIHighlightedImage" id="934943570">
+						<object class="NSCustomResource" key="IBUIHighlightedImage" id="847555955">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">Default.png</string>
+							<string key="NSResourceName">PianoKey_BLU.bmp</string>
+						</object>
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="675227322">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">PianoKey_BLK.bmp</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
@@ -233,14 +239,14 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<reference key="IBUIHighlightedTitleColor" ref="724244181"/>
+						<reference key="IBUIHighlightedTitleColor" ref="523442399"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="934943570"/>
+						<reference key="IBUIHighlightedImage" ref="847555955"/>
+						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -255,14 +261,14 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<reference key="IBUIHighlightedTitleColor" ref="724244181"/>
+						<reference key="IBUIHighlightedTitleColor" ref="523442399"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="934943570"/>
+						<reference key="IBUIHighlightedImage" ref="847555955"/>
+						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -280,14 +286,14 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<reference key="IBUIHighlightedTitleColor" ref="724244181"/>
+						<reference key="IBUIHighlightedTitleColor" ref="523442399"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="934943570"/>
+						<reference key="IBUIHighlightedImage" ref="847555955"/>
+						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -302,14 +308,14 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<int key="IBUIButtonType">1</int>
-						<reference key="IBUIHighlightedTitleColor" ref="724244181"/>
+						<reference key="IBUIHighlightedTitleColor" ref="523442399"/>
 						<object class="NSColor" key="IBUINormalTitleColor">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="934943570"/>
+						<reference key="IBUIHighlightedImage" ref="847555955"/>
+						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -1029,10 +1035,10 @@
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">Default.png</string>
-			<string key="NS.object.0">{320, 480}</string>
-		</object>
+		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
+			<string key="PianoKey_BLK.bmp">{56, 140}</string>
+			<string key="PianoKey_BLU.bmp">{56, 140}</string>
+		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 		<string key="IBCocoaTouchPluginVersion">933</string>
 	</data>
