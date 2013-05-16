@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MUS147ViewController.h"
 
-@interface MUS147View : UIView
+@interface MUS147View : UIButton
 
 -(void)doTouches:(NSSet *)touches withEvent:(UIEvent *)event;
 

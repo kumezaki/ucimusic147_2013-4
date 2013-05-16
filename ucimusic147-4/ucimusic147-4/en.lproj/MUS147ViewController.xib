@@ -1036,8 +1036,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="PianoKey_BLK.png">{59, 143}</string>
-			<string key="PianoKey_BLU.png">{60, 144}</string>
+			<string key="PianoKey_BLK.png">{61, 145}</string>
+			<string key="PianoKey_BLU.png">{61, 145}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 		<string key="IBCocoaTouchPluginVersion">933</string>
