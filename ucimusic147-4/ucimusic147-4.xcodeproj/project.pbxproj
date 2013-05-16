@@ -24,9 +24,8 @@
 		21A4B8B7172C283000E1FACA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A4B8B6172C283000E1FACA /* Default@2x.png */; };
 		21A4B8B9172C283000E1FACA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21A4B8B8172C283000E1FACA /* Default-568h@2x.png */; };
 		21A4B8BF172C283000E1FACA /* MUS147ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21A4B8BD172C283000E1FACA /* MUS147ViewController.xib */; };
-		5C1DA8371744548D00E8B475 /* PianoKey_BLK.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DA8341744548D00E8B475 /* PianoKey_BLK.bmp */; };
-		5C1DA8381744548D00E8B475 /* PianoKey_BLU.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DA8351744548D00E8B475 /* PianoKey_BLU.bmp */; };
-		5C1DA8391744548D00E8B475 /* PianoKey_WHT.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DA8361744548D00E8B475 /* PianoKey_WHT.bmp */; };
+		5C1DA843174459F000E8B475 /* PianoKey_BLK.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DA841174459F000E8B475 /* PianoKey_BLK.png */; };
+		5C1DA844174459F000E8B475 /* PianoKey_BLU.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1DA842174459F000E8B475 /* PianoKey_BLU.png */; };
 		5CBC1385173B3C11008EA176 /* ucimusic147-4-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CBC1384173B3C11008EA176 /* ucimusic147-4-Info.plist */; };
 		5CBC1388173B3CA6008EA176 /* MUS147ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC1387173B3CA6008EA176 /* MUS147ViewController.m */; };
 /* End PBXBuildFile section */
@@ -57,9 +56,8 @@
 		21A4B8B6172C283000E1FACA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		21A4B8B8172C283000E1FACA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		21A4B8BE172C283000E1FACA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MUS147ViewController.xib; sourceTree = "<group>"; };
-		5C1DA8341744548D00E8B475 /* PianoKey_BLK.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = PianoKey_BLK.bmp; sourceTree = "<group>"; };
-		5C1DA8351744548D00E8B475 /* PianoKey_BLU.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = PianoKey_BLU.bmp; sourceTree = "<group>"; };
-		5C1DA8361744548D00E8B475 /* PianoKey_WHT.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = PianoKey_WHT.bmp; sourceTree = "<group>"; };
+		5C1DA841174459F000E8B475 /* PianoKey_BLK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PianoKey_BLK.png; sourceTree = "<group>"; };
+		5C1DA842174459F000E8B475 /* PianoKey_BLU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PianoKey_BLU.png; sourceTree = "<group>"; };
 		5CBC1384173B3C11008EA176 /* ucimusic147-4-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ucimusic147-4-Info.plist"; sourceTree = "<group>"; };
 		5CBC1386173B3CA6008EA176 /* MUS147ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147ViewController.h; sourceTree = "<group>"; };
 		5CBC1387173B3CA6008EA176 /* MUS147ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147ViewController.m; sourceTree = "<group>"; };
@@ -134,9 +132,8 @@
 		21A4B8A9172C283000E1FACA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C1DA8341744548D00E8B475 /* PianoKey_BLK.bmp */,
-				5C1DA8351744548D00E8B475 /* PianoKey_BLU.bmp */,
-				5C1DA8361744548D00E8B475 /* PianoKey_WHT.bmp */,
+				5C1DA841174459F000E8B475 /* PianoKey_BLK.png */,
+				5C1DA842174459F000E8B475 /* PianoKey_BLU.png */,
 				219D6B76173237C8008C11A8 /* Music147.aif */,
 				21A4B8AB172C283000E1FACA /* InfoPlist.strings */,
 				5CBC1384173B3C11008EA176 /* ucimusic147-4-Info.plist */,
@@ -208,9 +205,8 @@
 				21A4B8BF172C283000E1FACA /* MUS147ViewController.xib in Resources */,
 				219D6B7E173237C8008C11A8 /* Music147.aif in Resources */,
 				5CBC1385173B3C11008EA176 /* ucimusic147-4-Info.plist in Resources */,
-				5C1DA8371744548D00E8B475 /* PianoKey_BLK.bmp in Resources */,
-				5C1DA8381744548D00E8B475 /* PianoKey_BLU.bmp in Resources */,
-				5C1DA8391744548D00E8B475 /* PianoKey_WHT.bmp in Resources */,
+				5C1DA843174459F000E8B475 /* PianoKey_BLK.png in Resources */,
+				5C1DA844174459F000E8B475 /* PianoKey_BLU.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

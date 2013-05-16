@@ -200,7 +200,7 @@
 					<object class="IBUIButton" id="603856634">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{33, 62}, {56, 140}}</string>
+						<string key="NSFrame">{{32, 60}, {59, 143}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="455906124"/>
@@ -217,13 +217,13 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<object class="NSCustomResource" key="IBUIHighlightedImage" id="847555955">
+						<object class="NSCustomResource" key="IBUIHighlightedImage" id="194198826">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">PianoKey_BLU.bmp</string>
+							<string key="NSResourceName">PianoKey_BLU.png</string>
 						</object>
-						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="675227322">
+						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="15574596">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">PianoKey_BLK.bmp</string>
+							<string key="NSResourceName">PianoKey_BLK.png</string>
 						</object>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
@@ -231,7 +231,7 @@
 					<object class="IBUIButton" id="774379498">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{115, 62}, {56, 140}}</string>
+						<string key="NSFrame">{{114, 60}, {59, 143}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="148212720"/>
@@ -245,15 +245,15 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="847555955"/>
-						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
+						<reference key="IBUIHighlightedImage" ref="194198826"/>
+						<reference key="IBUINormalBackgroundImage" ref="15574596"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
 					<object class="IBUIButton" id="250699069">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{236, 62}, {56, 140}}</string>
+						<string key="NSFrame">{{235, 60}, {59, 143}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="380297142"/>
@@ -267,15 +267,15 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="847555955"/>
-						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
+						<reference key="IBUIHighlightedImage" ref="194198826"/>
+						<reference key="IBUINormalBackgroundImage" ref="15574596"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
 					<object class="IBUIButton" id="50330924">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{316, 62}, {56, 140}}</string>
+						<string key="NSFrame">{{315, 60}, {59, 143}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="794694114"/>
@@ -292,15 +292,15 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="847555955"/>
-						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
+						<reference key="IBUIHighlightedImage" ref="194198826"/>
+						<reference key="IBUINormalBackgroundImage" ref="15574596"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
 					<object class="IBUIButton" id="625795802">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{396, 62}, {56, 140}}</string>
+						<string key="NSFrame">{{395, 60}, {59, 143}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="89725889"/>
@@ -314,8 +314,8 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
-						<reference key="IBUIHighlightedImage" ref="847555955"/>
-						<reference key="IBUINormalBackgroundImage" ref="675227322"/>
+						<reference key="IBUIHighlightedImage" ref="194198826"/>
+						<reference key="IBUINormalBackgroundImage" ref="15574596"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -1036,8 +1036,8 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="PianoKey_BLK.bmp">{56, 140}</string>
-			<string key="PianoKey_BLU.bmp">{56, 140}</string>
+			<string key="PianoKey_BLK.png">{59, 143}</string>
+			<string key="PianoKey_BLU.png">{60, 144}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 		<string key="IBCocoaTouchPluginVersion">933</string>
