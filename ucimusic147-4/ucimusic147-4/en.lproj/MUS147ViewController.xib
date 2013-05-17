@@ -61,6 +61,10 @@
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
 						</object>
+						<object class="NSCustomResource" key="IBUIHighlightedImage" id="574808307">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">PianoKey_Large_BLU.png</string>
+						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription" id="1021282149">
 							<int key="type">2</int>
 							<double key="pointSize">15</double>
@@ -89,6 +93,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
+						<reference key="IBUIHighlightedImage" ref="574808307"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -110,6 +115,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
+						<reference key="IBUIHighlightedImage" ref="574808307"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -131,6 +137,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
+						<reference key="IBUIHighlightedImage" ref="574808307"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -152,6 +159,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
+						<reference key="IBUIHighlightedImage" ref="574808307"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -173,6 +181,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
+						<reference key="IBUIHighlightedImage" ref="574808307"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -194,6 +203,7 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 						</object>
 						<reference key="IBUINormalTitleShadowColor" ref="918381785"/>
+						<reference key="IBUIHighlightedImage" ref="574808307"/>
 						<reference key="IBUIFontDescription" ref="1021282149"/>
 						<reference key="IBUIFont" ref="1019209320"/>
 					</object>
@@ -799,14 +809,19 @@
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="103.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="103.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="1" key="103.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="107.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="107.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="1" key="107.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="111.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="111.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="1" key="111.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="115.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="115.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="1" key="115.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="119.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="119.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="1" key="119.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="123.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="123.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="0.0" key="123.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
@@ -838,8 +853,10 @@
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="83.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="83.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="1" key="83.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="98.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="98.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="1" key="98.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
@@ -1038,6 +1055,7 @@
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="PianoKey_BLK.png">{61, 145}</string>
 			<string key="PianoKey_BLU.png">{61, 145}</string>
+			<string key="PianoKey_Large_BLU.png">{66, 240}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 		<string key="IBCocoaTouchPluginVersion">933</string>
