@@ -56,7 +56,25 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
-        voice[i] = [[MUS147Voice_Synth alloc] init];
+        
+        switch (i)
+        {
+            case 0:
+                voice[i] = [[MUS147Voice_Synth alloc] init];
+                break;
+            case 1:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+//            case 2:
+//               voice[i] = [[MUS147Voice_BLIT alloc] init];
+//                break;
+//            case 3:
+//                voice[i] = [[MUS147Voice_BLITSaw alloc] init];
+//                break;
+            default:
+                break;
+        }
+
     }
 	
 	[self start];
