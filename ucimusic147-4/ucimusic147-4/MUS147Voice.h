@@ -15,13 +15,13 @@
     Float64 amp;
     
     Float64 speed;
-    NSString* aifSamples; 
+    CFStringRef aifSamples; 
 }
 
 @property (readwrite) Float64 freq;
 @property (readwrite) Float64 amp;
 @property (readwrite) Float64 speed;
-@property (nonatomic, retain) NSString* aifSamples; //   12 Piano Key samples
+@property (readwrite) CFStringRef aifSamples; //   12 Piano Key samples
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples;
 

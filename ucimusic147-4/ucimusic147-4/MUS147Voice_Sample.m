@@ -13,10 +13,9 @@
 -(id)init
 {
 	self = [super init];
-    
     /* get a path to the sound file */
     /* note that the file name and file extension are set here */
-	CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),CFSTR("8"),CFSTR("aif"),NULL);
+	CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),aifSamples,CFSTR("aif"),NULL);
     
 	/* open the file and get the fileID */
 	OSStatus result = noErr;

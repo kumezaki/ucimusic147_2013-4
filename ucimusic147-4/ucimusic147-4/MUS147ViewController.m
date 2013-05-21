@@ -59,14 +59,14 @@ extern MUS147AQPlayer* aqp;
 
 -(IBAction)setCKey:(id)sender
 {
-      [aqp getVoice:1].aifSamples = @"1";
+      [aqp getVoice:1].aifSamples = CFSTR("2");
       [aqp getVoice:1].speed = 2.;
 //    [aqp getVoice:1].freq = 261.626;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setCsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"2";
+    [aqp getVoice:1].aifSamples = CFSTR("2");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 277.183;
@@ -74,7 +74,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setDKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"3";
+    [aqp getVoice:1].aifSamples = CFSTR("3");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 288.665;
@@ -82,7 +82,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setDsKey:(id)sender
 { 
-    [aqp getVoice:1].aifSamples = @"4";
+    [aqp getVoice:1].aifSamples = CFSTR("4");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 311.127;
@@ -90,7 +90,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setEKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"5";
+    [aqp getVoice:1].aifSamples = CFSTR("5");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 329.628;
@@ -98,7 +98,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setFKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"6";
+    [aqp getVoice:1].aifSamples = CFSTR("6");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 349.228;
@@ -106,7 +106,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setFsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"7";
+    [aqp getVoice:1].aifSamples = CFSTR("7");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 369.994;
@@ -114,7 +114,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setGKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"8";
+    [aqp getVoice:1].aifSamples = CFSTR("8");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 391.995;
@@ -122,7 +122,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setGsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"9";
+    [aqp getVoice:1].aifSamples = CFSTR("9");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 415.305;
@@ -130,7 +130,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setAKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"10";
+    [aqp getVoice:1].aifSamples = CFSTR("10");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 440;
@@ -138,7 +138,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setAsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"11";
+    [aqp getVoice:1].aifSamples = CFSTR("11");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 466.164;
@@ -146,7 +146,7 @@ extern MUS147AQPlayer* aqp;
 }
 -(IBAction)setBKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = @"12";
+    [aqp getVoice:1].aifSamples = CFSTR("12");
     [aqp getVoice:1].speed = 2.;
 
 //      [aqp getVoice:1].freq = 493.883;
