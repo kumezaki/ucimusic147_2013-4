@@ -63,6 +63,7 @@ extern MUS147AQPlayer* aqp;
 //      [aqp getVoice:1].aifSamples = CFSTR("2");
 //      [aqp getVoice:1].speed = 2.;
     [aqp getVoice:0].freq = 261.626;
+    
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setCsKey:(id)sender
@@ -152,6 +153,7 @@ extern MUS147AQPlayer* aqp;
 
       [aqp getVoice:0].freq = 493.883;
 //    [aqp getVoice:1].amp = 1.;
+    
 }
 
 @end
