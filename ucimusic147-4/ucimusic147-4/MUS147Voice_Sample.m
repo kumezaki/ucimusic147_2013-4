@@ -46,7 +46,7 @@
     /* read some data */
 	OSStatus result = AudioFileReadPackets(fileID,NO,&outNumBytes,NULL,inStartingPacket,&ioNumPackets,fileBuffer);
 	if (result != noErr)
-		NSLog(@"AudioFileReadPackets exception %ld",result);
+//		NSLog(@"AudioFileReadPackets exception %ld",result);
     
     if (ioNumPackets < numReadPackets)
     /* reset the filePos value to 0 to loop back to the beginning of the sound file */

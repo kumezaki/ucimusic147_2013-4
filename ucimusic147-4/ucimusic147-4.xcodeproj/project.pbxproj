@@ -355,6 +355,10 @@
 		21A4B8C3172C283000E1FACA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ucimusic147-4/ucimusic147-4-Prefix.pch";
 				INFOPLIST_FILE = "ucimusic147-4/ucimusic147-4-Info.plist";
@@ -367,6 +371,10 @@
 		21A4B8C4172C283000E1FACA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ucimusic147-4/ucimusic147-4-Prefix.pch";
 				INFOPLIST_FILE = "ucimusic147-4/ucimusic147-4-Info.plist";

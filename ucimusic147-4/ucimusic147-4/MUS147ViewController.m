@@ -52,104 +52,105 @@ extern MUS147AQPlayer* aqp;
 }
 
 -(IBAction)setAmp1:(id)sender
+// WE NEED TO CHANGE THE AMPLITUDE LATER--------------------------------
 {
-    [aqp getVoice:1].amp = amp1Slider.value;
+    [aqp getVoice:0].amp = amp1Slider.value;
 }
 
 
 -(IBAction)setCKey:(id)sender
 {
-      [aqp getVoice:1].aifSamples = CFSTR("2");
-      [aqp getVoice:1].speed = 2.;
-//    [aqp getVoice:1].freq = 261.626;
+//      [aqp getVoice:1].aifSamples = CFSTR("2");
+//      [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:0].freq = 261.626;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setCsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("2");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("2");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 277.183;
+      [aqp getVoice:0].freq = 277.183;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setDKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("3");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("3");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 288.665;
+      [aqp getVoice:0].freq = 288.665;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setDsKey:(id)sender
 { 
-    [aqp getVoice:1].aifSamples = CFSTR("4");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("4");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 311.127;
+      [aqp getVoice:0].freq = 311.127;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setEKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("5");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("5");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 329.628;
+      [aqp getVoice:0].freq = 329.628;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setFKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("6");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("6");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 349.228;
+      [aqp getVoice:0].freq = 349.228;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setFsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("7");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("7");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 369.994;
+      [aqp getVoice:0].freq = 369.994;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setGKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("8");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("8");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 391.995;
+      [aqp getVoice:0].freq = 391.995;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setGsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("9");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("9");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 415.305;
+      [aqp getVoice:0].freq = 415.305;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setAKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("10");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("10");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 440;
+      [aqp getVoice:0].freq = 440;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setAsKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("11");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("11");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 466.164;
+      [aqp getVoice:0].freq = 466.164;
 //    [aqp getVoice:1].amp = 1.;
 }
 -(IBAction)setBKey:(id)sender
 {
-    [aqp getVoice:1].aifSamples = CFSTR("12");
-    [aqp getVoice:1].speed = 2.;
+//    [aqp getVoice:1].aifSamples = CFSTR("12");
+//    [aqp getVoice:1].speed = 2.;
 
-//      [aqp getVoice:1].freq = 493.883;
+      [aqp getVoice:0].freq = 493.883;
 //    [aqp getVoice:1].amp = 1.;
 }
 
