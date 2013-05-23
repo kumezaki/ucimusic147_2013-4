@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MUS147Button.h"
 
 @interface MUS147ViewController : UIViewController {
 
@@ -50,5 +51,8 @@
 -(IBAction)setAKey:(id)sender;
 -(IBAction)setAsKey:(id)sender;
 -(IBAction)setBKey:(id)sender;
+
+//releasing
+-(IBAction)release:(id)sender;
 
 @end

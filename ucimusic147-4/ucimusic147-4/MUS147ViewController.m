@@ -26,6 +26,8 @@ extern MUS147AQPlayer* aqp;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -54,7 +56,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setAmp1:(id)sender
 // WE NEED TO CHANGE THE AMPLITUDE LATER--------------------------------
 {
-    [aqp getVoice:0].amp = amp1Slider.value;
+    //[aqp getVoice:0].amp = amp1Slider.value;
 }
 
 
@@ -62,9 +64,10 @@ extern MUS147AQPlayer* aqp;
 {
 //      [aqp getVoice:1].aifSamples = CFSTR("2");
 //      [aqp getVoice:1].speed = 2.;
-    [aqp getVoice:0].freq = 261.626;
     
-//    [aqp getVoice:1].amp = 1.;
+    
+    [aqp getVoice:0].freq = 261.626;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setCsKey:(id)sender
 {
@@ -72,7 +75,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 277.183;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setDKey:(id)sender
 {
@@ -80,7 +83,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 288.665;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setDsKey:(id)sender
 { 
@@ -88,7 +91,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 311.127;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setEKey:(id)sender
 {
@@ -96,7 +99,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 329.628;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setFKey:(id)sender
 {
@@ -104,7 +107,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 349.228;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setFsKey:(id)sender
 {
@@ -112,7 +115,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 369.994;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setGKey:(id)sender
 {
@@ -120,7 +123,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 391.995;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setGsKey:(id)sender
 {
@@ -128,7 +131,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 415.305;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setAKey:(id)sender
 {
@@ -136,7 +139,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 440;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setAsKey:(id)sender
 {
@@ -144,7 +147,7 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 466.164;
-//    [aqp getVoice:1].amp = 1.;
+    [aqp getVoice:0].amp = 1.;
 }
 -(IBAction)setBKey:(id)sender
 {
@@ -152,8 +155,12 @@ extern MUS147AQPlayer* aqp;
 //    [aqp getVoice:1].speed = 2.;
 
       [aqp getVoice:0].freq = 493.883;
-//    [aqp getVoice:1].amp = 1.;
-    
+    [aqp getVoice:0].amp = 1.;
+}
+
+-(IBAction)release:(id)sender
+{
+    [aqp getVoice:0].amp = 0;
 }
 
 @end

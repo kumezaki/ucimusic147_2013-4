@@ -11,15 +11,27 @@
 extern MUS147AQPlayer* aqp;
 
 @implementation MUS147Button
--(id)init
+
+- (id)initWithFrame:(CGRect)frame
 {
-    self = [super init];
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+    }
     return self;
+    
+    
 }
 
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
+    NSLog(@"%@", key);
+    if( [key isEqualToString:@"c"] )
+        [aqp getVoice:0].freq = 1461.626;
+    else
+         [aqp getVoice:0].freq = 101.626;
+    
     [aqp getVoice:0].amp = 1.;
 }
 

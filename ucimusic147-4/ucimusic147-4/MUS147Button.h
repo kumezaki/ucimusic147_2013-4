@@ -10,6 +10,11 @@
 
 
 @interface MUS147Button : UIButton
--(id)init;
+{
+    NSString* key;
+}
+
+@property (copy, nonatomic) NSString* key;
+- (id)initWithFrame:(CGRect)frame;
 
 @end
