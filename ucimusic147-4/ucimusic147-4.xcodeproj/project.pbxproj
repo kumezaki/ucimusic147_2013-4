@@ -30,6 +30,8 @@
 		5CBC1385173B3C11008EA176 /* ucimusic147-4-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CBC1384173B3C11008EA176 /* ucimusic147-4-Info.plist */; };
 		5CBC1388173B3CA6008EA176 /* MUS147ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC1387173B3CA6008EA176 /* MUS147ViewController.m */; };
 		B8544F33174D862F00973203 /* MUS147Button.m in Sources */ = {isa = PBXBuildFile; fileRef = B8544F32174D862F00973203 /* MUS147Button.m */; };
+		B8841F101756BD3700BAFAAB /* PianoKey_Large_RED.png in Resources */ = {isa = PBXBuildFile; fileRef = B8841F0E1756BD3700BAFAAB /* PianoKey_Large_RED.png */; };
+		B8841F111756BD3700BAFAAB /* PianoKey_RED.png in Resources */ = {isa = PBXBuildFile; fileRef = B8841F0F1756BD3700BAFAAB /* PianoKey_RED.png */; };
 		B8BFA785174AE00200FC13B7 /* 1.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8BFA779174AE00200FC13B7 /* 1.aif */; };
 		B8BFA786174AE00200FC13B7 /* 10.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8BFA77A174AE00200FC13B7 /* 10.aif */; };
 		B8BFA787174AE00200FC13B7 /* 11.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8BFA77B174AE00200FC13B7 /* 11.aif */; };
@@ -78,6 +80,8 @@
 		5CBC1387173B3CA6008EA176 /* MUS147ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147ViewController.m; sourceTree = "<group>"; };
 		B8544F31174D862F00973203 /* MUS147Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Button.h; sourceTree = "<group>"; };
 		B8544F32174D862F00973203 /* MUS147Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Button.m; sourceTree = "<group>"; };
+		B8841F0E1756BD3700BAFAAB /* PianoKey_Large_RED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PianoKey_Large_RED.png; sourceTree = "<group>"; };
+		B8841F0F1756BD3700BAFAAB /* PianoKey_RED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PianoKey_RED.png; sourceTree = "<group>"; };
 		B8BFA779174AE00200FC13B7 /* 1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.aif; path = "Voice Sample AIF/1.aif"; sourceTree = "<group>"; };
 		B8BFA77A174AE00200FC13B7 /* 10.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 10.aif; path = "Voice Sample AIF/10.aif"; sourceTree = "<group>"; };
 		B8BFA77B174AE00200FC13B7 /* 11.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 11.aif; path = "Voice Sample AIF/11.aif"; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 		21A4B8A9172C283000E1FACA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B8841F0E1756BD3700BAFAAB /* PianoKey_Large_RED.png */,
+				B8841F0F1756BD3700BAFAAB /* PianoKey_RED.png */,
 				B8BFA779174AE00200FC13B7 /* 1.aif */,
 				B8BFA77A174AE00200FC13B7 /* 10.aif */,
 				B8BFA77B174AE00200FC13B7 /* 11.aif */,
@@ -264,6 +270,8 @@
 				B8BFA78E174AE00200FC13B7 /* 7.aif in Resources */,
 				B8BFA78F174AE00200FC13B7 /* 8.aif in Resources */,
 				B8BFA790174AE00200FC13B7 /* 9.aif in Resources */,
+				B8841F101756BD3700BAFAAB /* PianoKey_Large_RED.png in Resources */,
+				B8841F111756BD3700BAFAAB /* PianoKey_RED.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
