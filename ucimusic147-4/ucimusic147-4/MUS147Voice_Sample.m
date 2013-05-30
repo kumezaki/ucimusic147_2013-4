@@ -13,15 +13,12 @@
 -(id)init
 {
 	self = [super init];
-    /* get a path to the sound file */
-    /* note that the file name and file extension are set here */
-	CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),aifSamples,CFSTR("aif"),NULL);
     
-	/* open the file and get the fileID */
-	OSStatus result = noErr;
-	result = AudioFileOpenURL(mSoundFileURLRef,kAudioFileReadPermission,0,&fileID);
-	if (result != noErr)
-		NSLog(@"AudioFileOpenURL exception %ld",result);
+    for (int i = 1; i <= 12; i++) {
+        aifSample = CFStringCreateWithFormat(NULL, NULL, CFSTR("%d"), i);
+        fileID[i] = [self keyFileName:aifSample];
+        NSLog(@"aifsample is : %@ \n and fielID of %d is : ", aifSample,i);
+    }
 	
 	return self;
 }
@@ -30,9 +27,25 @@
 {
 	/* close the file */
 	OSStatus result = noErr;
-	result = AudioFileClose(fileID);
+	result = AudioFileClose(fileID[fID]);
 	if (result != noErr)
 		NSLog(@"AudioFileClose %ld",result);
+}
+
+-(AudioFileID)keyFileName:(CFStringRef)AIFsample
+{
+    /* get a path to the sound file */
+    /* note that the file name and file extension are set here */
+	CFURLRef mSoundFileURLRef = CFBundleCopyResourceURL(CFBundleGetMainBundle(),AIFsample,CFSTR("aif"),NULL);
+    
+	/* open the file and get the fileID */
+	OSStatus result = noErr;
+	result = AudioFileOpenURL(mSoundFileURLRef,kAudioFileReadPermission,0,&fileID[0]);
+	if (result != noErr)
+    {
+		NSLog(@"AudioFileOpenURL exception %ld",result);
+    }
+    return fileID[0];	
 }
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples
@@ -43,11 +56,15 @@
 	SInt64 inStartingPacket = (SInt64)filePos; /* convert float to int */
 	UInt32 outNumBytes = 0;
     
-    /* read some data */
-	OSStatus result = AudioFileReadPackets(fileID,NO,&outNumBytes,NULL,inStartingPacket,&ioNumPackets,fileBuffer);
-	if (result != noErr)
-//		NSLog(@"AudioFileReadPackets exception %ld",result);
+    /* read the file */
+//    [self keyFileName:aifSample];
     
+    /* read some data */
+	OSStatus result = AudioFileReadPackets(fileID[fID],NO,&outNumBytes,NULL,inStartingPacket,&ioNumPackets,fileBuffer);
+	if (result != noErr)
+    {
+//		NSLog(@"AudioFileReadPackets exception %ld",result);
+    }
     if (ioNumPackets < numReadPackets)
     /* reset the filePos value to 0 to loop back to the beginning of the sound file */
         filePos = 0;

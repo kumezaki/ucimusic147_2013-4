@@ -16,7 +16,7 @@
 @interface MUS147Voice_Sample : MUS147Voice {
     
     /* a kind of system pointer to the audio file */
-    AudioFileID		fileID;
+    AudioFileID		fileID[13];
     
     /* the buffer which will contain data read from the audio file */
     SInt16			fileBuffer[kMaxIOBufferSamples];
@@ -24,5 +24,7 @@
     /* the index where the next read in the file will happen  */
     Float64			filePos;
 }
+
+-(AudioFileID)keyFileName:(CFStringRef)aifSample;
 
 @end

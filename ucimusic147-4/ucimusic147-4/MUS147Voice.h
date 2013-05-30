@@ -5,7 +5,7 @@
 //  Created by Kojiro Umezaki on 4/26/13.
 //  Copyright (c) 2013 Kojiro Umezaki. All rights reserved.
 //
-
+#import <AudioToolbox/AudioToolbox.h>
 #import <Foundation/Foundation.h>
 
 @interface MUS147Voice : NSObject {
@@ -15,13 +15,16 @@
     Float64 amp;
     
     Float64 speed;
-    CFStringRef aifSamples; 
+    CFStringRef aifSample;
+    UInt64 fID; //file id
 }
 
 @property (readwrite) Float64 freq;
 @property (readwrite) Float64 amp;
 @property (readwrite) Float64 speed;
-@property (readwrite) CFStringRef aifSamples; //   12 Piano Key samples
+@property (readwrite) CFStringRef aifSample; //   12 Piano Key samples
+@property (readwrite) UInt64 fId;
+
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples;
 
