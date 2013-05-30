@@ -14,7 +14,7 @@
 @synthesize amp;
 @synthesize speed;
 @synthesize aifSample; //  12 Piano Key samples
-@synthesize fId;
+@synthesize fID;
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples
 {

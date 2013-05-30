@@ -17,7 +17,7 @@
     for (int i = 1; i <= 12; i++) {
         aifSample = CFStringCreateWithFormat(NULL, NULL, CFSTR("%d"), i);
         fileID[i] = [self keyFileName:aifSample];
-        NSLog(@"aifsample is : %@ \n and fielID of %d is : ", aifSample,i);
+//        NSLog(@"aifsample is : %@ \n and fielID of %d is : %d", aifSample,i, (int)fileID[i]);
     }
 	
 	return self;
@@ -43,7 +43,7 @@
 	result = AudioFileOpenURL(mSoundFileURLRef,kAudioFileReadPermission,0,&fileID[0]);
 	if (result != noErr)
     {
-		NSLog(@"AudioFileOpenURL exception %ld",result);
+//		NSLog(@"AudioFileOpenURL exception %ld",result);
     }
     return fileID[0];	
 }
@@ -58,6 +58,7 @@
     
     /* read the file */
 //    [self keyFileName:aifSample];
+//    NSLog(@"Index: %d and fileID: %d",(int)fID, (int)fileID[fID]);
     
     /* read some data */
 	OSStatus result = AudioFileReadPackets(fileID[fID],NO,&outNumBytes,NULL,inStartingPacket,&ioNumPackets,fileBuffer);

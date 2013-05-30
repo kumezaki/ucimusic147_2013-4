@@ -23,7 +23,7 @@
 @property (readwrite) Float64 amp;
 @property (readwrite) Float64 speed;
 @property (readwrite) CFStringRef aifSample; //   12 Piano Key samples
-@property (readwrite) UInt64 fId;
+@property (readwrite) UInt64 fID;
 
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples;
