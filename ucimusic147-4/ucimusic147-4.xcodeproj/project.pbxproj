@@ -44,6 +44,8 @@
 		B8BFA78E174AE00200FC13B7 /* 7.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8BFA782174AE00200FC13B7 /* 7.aif */; };
 		B8BFA78F174AE00200FC13B7 /* 8.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8BFA783174AE00200FC13B7 /* 8.aif */; };
 		B8BFA790174AE00200FC13B7 /* 9.aif in Resources */ = {isa = PBXBuildFile; fileRef = B8BFA784174AE00200FC13B7 /* 9.aif */; };
+		B8FE88181756D2020002DC66 /* MUS147AQRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE88171756D2020002DC66 /* MUS147AQRecorder.m */; };
+		B8FE881D1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE881C1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,11 @@
 		B8BFA782174AE00200FC13B7 /* 7.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 7.aif; path = "Voice Sample AIF/7.aif"; sourceTree = "<group>"; };
 		B8BFA783174AE00200FC13B7 /* 8.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 8.aif; path = "Voice Sample AIF/8.aif"; sourceTree = "<group>"; };
 		B8BFA784174AE00200FC13B7 /* 9.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 9.aif; path = "Voice Sample AIF/9.aif"; sourceTree = "<group>"; };
+		B8FE88161756D2020002DC66 /* MUS147AQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147AQRecorder.h; sourceTree = "<group>"; };
+		B8FE88171756D2020002DC66 /* MUS147AQRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147AQRecorder.m; sourceTree = "<group>"; };
+		B8FE881A1756D28A0002DC66 /* MUS147AQShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147AQShared.h; sourceTree = "<group>"; };
+		B8FE881B1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Voice_Sample_Mem.h; sourceTree = "<group>"; };
+		B8FE881C1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice_Sample_Mem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,12 +149,15 @@
 		21A4B8A8172C283000E1FACA /* ucimusic147-4 */ = {
 			isa = PBXGroup;
 			children = (
-				B8544F31174D862F00973203 /* MUS147Button.h */,
-				B8544F32174D862F00973203 /* MUS147Button.m */,
 				21A4B8B1172C283000E1FACA /* MUS147AppDelegate.h */,
 				21A4B8B2172C283000E1FACA /* MUS147AppDelegate.m */,
 				219D6B6C173237C8008C11A8 /* MUS147AQPlayer.h */,
 				219D6B6D173237C8008C11A8 /* MUS147AQPlayer.m */,
+				B8FE88161756D2020002DC66 /* MUS147AQRecorder.h */,
+				B8FE88171756D2020002DC66 /* MUS147AQRecorder.m */,
+				B8FE881A1756D28A0002DC66 /* MUS147AQShared.h */,
+				B8544F31174D862F00973203 /* MUS147Button.h */,
+				B8544F32174D862F00973203 /* MUS147Button.m */,
 				219D6B6E173237C8008C11A8 /* MUS147View.h */,
 				219D6B6F173237C8008C11A8 /* MUS147View.m */,
 				5CBC1386173B3CA6008EA176 /* MUS147ViewController.h */,
@@ -157,6 +167,8 @@
 				219D6B75173237C8008C11A8 /* MUS147Voice.m */,
 				219D6B70173237C8008C11A8 /* MUS147Voice_Sample.h */,
 				219D6B71173237C8008C11A8 /* MUS147Voice_Sample.m */,
+				B8FE881B1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.h */,
+				B8FE881C1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m */,
 				219D6B72173237C8008C11A8 /* MUS147Voice_Synth.h */,
 				219D6B73173237C8008C11A8 /* MUS147Voice_Synth.m */,
 				21A4B8A9172C283000E1FACA /* Supporting Files */,
@@ -291,6 +303,8 @@
 				219D6B7D173237C8008C11A8 /* MUS147Voice.m in Sources */,
 				5CBC1388173B3CA6008EA176 /* MUS147ViewController.m in Sources */,
 				B8544F33174D862F00973203 /* MUS147Button.m in Sources */,
+				B8FE88181756D2020002DC66 /* MUS147AQRecorder.m in Sources */,
+				B8FE881D1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
