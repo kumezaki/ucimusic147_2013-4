@@ -63,7 +63,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setCKey:(id)sender
 {
     [aqp getVoice:1].fID = 1;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
     
     
@@ -73,7 +73,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setCsKey:(id)sender
 {
     [aqp getVoice:1].fID = 2;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //    [aqp getVoice:0].freq = 277.183;
@@ -82,7 +82,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setDKey:(id)sender
 {
     [aqp getVoice:1].fID = 3;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //    [aqp getVoice:0].freq = 288.665;
@@ -91,7 +91,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setDsKey:(id)sender
 { 
     [aqp getVoice:1].fID = 4;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //    [aqp getVoice:0].freq = 311.127;
@@ -100,7 +100,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setEKey:(id)sender
 {
     [aqp getVoice:1].fID = 5;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //    [aqp getVoice:0].freq = 329.628;
@@ -109,7 +109,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setFKey:(id)sender
 {
     [aqp getVoice:1].fID = 6;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //      [aqp getVoice:0].freq = 349.228;
@@ -118,7 +118,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setFsKey:(id)sender
 {
     [aqp getVoice:1].fID = 7;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //      [aqp getVoice:0].freq = 369.994;
@@ -127,7 +127,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setGKey:(id)sender
 {
     [aqp getVoice:1].fID = 8;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //      [aqp getVoice:0].freq = 391.995;
@@ -136,7 +136,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setGsKey:(id)sender
 {
     [aqp getVoice:1].fID = 9;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //      [aqp getVoice:0].freq = 415.305;
@@ -145,7 +145,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setAKey:(id)sender
 {
     [aqp getVoice:1].fID = 10;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //      [aqp getVoice:0].freq = 440;
@@ -154,7 +154,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setAsKey:(id)sender
 {
     [aqp getVoice:1].fID = 11;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //      [aqp getVoice:0].freq = 466.164;
@@ -163,7 +163,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setBKey:(id)sender
 {
     [aqp getVoice:1].fID = 12;
-    [aqp getVoice:1].speed = 2.;
+    [aqp getVoice:1].speed = 1.;
     [aqp getVoice:1].amp = 1.;
 
 //      [aqp getVoice:0].freq = 493.883;
