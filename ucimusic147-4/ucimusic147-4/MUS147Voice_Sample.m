@@ -70,8 +70,11 @@
     /* reset the filePos value to 0 to loop back to the beginning of the sound file */
         filePos = 0;
     else
+    {
     /* advance the member variable filePos to know where to read from next time this method is called */
         filePos += ioNumPackets;
+        fileID[0] = fileID[fID];
+    }
     
 	/* convert the buffer of sample read from sound file into the app's internal audio buffer */
 	for (UInt32 buf_pos = 0; buf_pos < num_samples; buf_pos++)

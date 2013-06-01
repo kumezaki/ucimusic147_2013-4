@@ -173,6 +173,7 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)release:(id)sender
 {
     [aqp getVoice:0].amp = 0;
+    [aqp getVoice:1].amp = 0;
 }
 
 @end
