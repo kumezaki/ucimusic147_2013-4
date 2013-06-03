@@ -11,7 +11,7 @@
 #import "MUS147AQPlayer.h"
 extern MUS147AQPlayer* aqp;
 
-@interface MUS147ViewController ()
+@interface MUS147ViewController () 
 
 @end
 
