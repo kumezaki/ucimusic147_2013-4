@@ -17,6 +17,8 @@ extern MUS147AQPlayer* aqp;
 
 @implementation MUS147ViewController
 
+@synthesize doubleTouchGesture;
+
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
     return (toInterfaceOrientation == UIInterfaceOrientationLandscapeRight);
@@ -26,12 +28,15 @@ extern MUS147AQPlayer* aqp;
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
     [[UIAccelerometer sharedAccelerometer] setDelegate:self];
     
+//    // Handle two finger touch?
+    doubleTouchGesture = [[UITapGestureRecognizer alloc]init];
+    [doubleTouchGesture setNumberOfTouchesRequired:2];
+    [self.view addGestureRecognizer:doubleTouchGesture];
 }
 
--(void) accelerometer: (UIAccelerometer *)accelerometer didAccelerate: (UIAcceleration *)acceleration
+-(void)accelerometer: (UIAccelerometer *)accelerometer didAccelerate: (UIAcceleration *)acceleration
 {
     NSLog(@"%f %f,%f", acceleration.x, acceleration.y, acceleration.z);
     float speed;
@@ -91,113 +96,170 @@ extern MUS147AQPlayer* aqp;
 
 -(IBAction)setCKey:(id)sender
 {
-    [aqp getVoice:1].fID = 1;
-    [aqp getVoice:1].speed = 1.;
-    [aqp getVoice:1].amp = 0.5;
-    
-    
-    [aqp getVoice:0].freq = 261.626;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 261.626;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [aqp getVoice:1].fID = 1;
+        [aqp getVoice:1].speed = 1.;
+        [aqp getVoice:1].amp = 0.5;
+    }
 }
 -(IBAction)setCsKey:(id)sender
 {
-    [aqp getVoice:2].fID = 2;
-    [aqp getVoice:2].speed = 1.;
-    [aqp getVoice:2].amp = 0.5;
-
-    [aqp getVoice:0].freq = 277.183;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 277.183;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:2].fID = 2;
+        [aqp getVoice:2].speed = 1.;
+        [aqp getVoice:2].amp = 0.5;
+    }
 }
 -(IBAction)setDKey:(id)sender
 {
-    [aqp getVoice:3].fID = 3;
-    [aqp getVoice:3].speed = 1.;
-    [aqp getVoice:3].amp = 0.5;
-
-    [aqp getVoice:0].freq = 288.665;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 288.665;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:3].fID = 3;
+        [aqp getVoice:3].speed = 1.;
+        [aqp getVoice:3].amp = 0.5;
+    }
 }
 -(IBAction)setDsKey:(id)sender
-{ 
-    [aqp getVoice:4].fID = 4;
-    [aqp getVoice:4].speed = 1.;
-    [aqp getVoice:4].amp = 0.5;
-
-    [aqp getVoice:0].freq = 311.127;
-    [aqp getVoice:0].amp = 0.1;
+{
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 311.127;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:4].fID = 4;
+        [aqp getVoice:4].speed = 1.;
+        [aqp getVoice:4].amp = 0.5;
+    }
 }
 -(IBAction)setEKey:(id)sender
 {
-    [aqp getVoice:5].fID = 5;
-    [aqp getVoice:5].speed = 1.;
-    [aqp getVoice:5].amp = 0.5;
-
-    [aqp getVoice:0].freq = 329.628;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 329.628;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:5].fID = 5;
+        [aqp getVoice:5].speed = 1.;
+        [aqp getVoice:5].amp = 0.5;
+    }
 }
 -(IBAction)setFKey:(id)sender
 {
-    [aqp getVoice:6].fID = 6;
-    [aqp getVoice:6].speed = 1.;
-    [aqp getVoice:6].amp = 0.5;
-
-    [aqp getVoice:0].freq = 349.228;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 349.228;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:6].fID = 6;
+        [aqp getVoice:6].speed = 1.;
+        [aqp getVoice:6].amp = 0.5;
+    }
 }
 -(IBAction)setFsKey:(id)sender
 {
-    
-    [aqp getVoice:7].fID = 7;
-    [aqp getVoice:7].speed = 1.;
-    [aqp getVoice:7].amp = 0.5;
-
-    [aqp getVoice:0].freq = 369.994;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 369.994;
+        [aqp getVoice:0].amp = 0.1;    
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:7].fID = 7;
+        [aqp getVoice:7].speed = 1.;
+        [aqp getVoice:7].amp = 0.5;
+    }
 }
 -(IBAction)setGKey:(id)sender
-{
-    [aqp getVoice:8].fID = 8;
-    [aqp getVoice:8].speed = 1.;
-    [aqp getVoice:8].amp = 0.5;
-
-    [aqp getVoice:0].freq = 391.995;
-    [aqp getVoice:0].amp = 0.1;
+{    
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 391.995;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:8].fID = 8;
+        [aqp getVoice:8].speed = 1.;
+        [aqp getVoice:8].amp = 0.5;
+    }
 }
 -(IBAction)setGsKey:(id)sender
 {
-    [aqp getVoice:9].fID = 9;
-    [aqp getVoice:9].speed = 1.;
-    [aqp getVoice:9].amp = 0.5;
-
-    [aqp getVoice:0].freq = 415.305;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 415.305;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:9].fID = 9;
+        [aqp getVoice:9].speed = 1.;
+        [aqp getVoice:9].amp = 0.5;
+    }
 }
 -(IBAction)setAKey:(id)sender
 {
-    [aqp getVoice:10].fID = 10;
-    [aqp getVoice:10].speed = 1.;
-    [aqp getVoice:10].amp = 0.5;
-
-    [aqp getVoice:0].freq = 440;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 440;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:10].fID = 10;
+        [aqp getVoice:10].speed = 1.;
+        [aqp getVoice:10].amp = 0.5;
+    }
 }
 -(IBAction)setAsKey:(id)sender
 {
-    [aqp getVoice:11].fID = 11;
-    [aqp getVoice:11].speed = 1.;
-    [aqp getVoice:11].amp = 0.5;
-
-    [aqp getVoice:0].freq = 466.164;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 466.164;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:11].fID = 11;
+        [aqp getVoice:11].speed = 1.;
+        [aqp getVoice:11].amp = 0.5;
+    }
 }
 -(IBAction)setBKey:(id)sender
 {
-    [aqp getVoice:12].fID = 12;
-    [aqp getVoice:12].speed = 1.;
-    [aqp getVoice:12].amp = 0.5;
-
-    [aqp getVoice:0].freq = 493.883;
-    [aqp getVoice:0].amp = 0.1;
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 493.883;
+        [aqp getVoice:0].amp = 0.1;
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:12].fID = 12;
+        [aqp getVoice:12].speed = 1.;
+        [aqp getVoice:12].amp = 0.5;
+    }
 }
 
 -(IBAction)releaseC:(id)sender
@@ -259,5 +321,9 @@ extern MUS147AQPlayer* aqp;
 {
     [aqp getVoice:12].amp = 0;
     [aqp getVoice:0].amp = 0;
+}
+
+- (void)viewDidUnload {
+    [super viewDidUnload];
 }
 @end
