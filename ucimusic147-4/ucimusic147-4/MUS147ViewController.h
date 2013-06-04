@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "MUS147Button.h"
 
-@interface MUS147ViewController : UIViewController {
+@interface MUS147ViewController : UIViewController <UIAccelerometerDelegate>{
 
     // member variables here
     IBOutlet UISlider* freq0Slider;

@@ -27,7 +27,34 @@ extern MUS147AQPlayer* aqp;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    [[UIAccelerometer sharedAccelerometer] setDelegate:self];
     
+}
+
+-(void) accelerometer: (UIAccelerometer *)accelerometer didAccelerate: (UIAcceleration *)acceleration
+{
+    NSLog(@"%f %f,%f", acceleration.x, acceleration.y, acceleration.z);
+    float speed;
+    
+    if(acceleration.y > 0)
+    {
+        speed = -1 * acceleration.y + 1;
+        
+        if(speed < 0.5)
+            speed = 0.5;
+    }
+    
+    else if(acceleration.y == 0)
+        speed = 1;
+    
+    else if(acceleration.y < 0)
+    {
+        speed = 1 + -1 * acceleration.y * 3.4;
+        
+        if(speed > 4)
+            speed = 4;
+    }
+    [aqp getVoice:1].speed = speed;
 }
 
 - (void)didReceiveMemoryWarning

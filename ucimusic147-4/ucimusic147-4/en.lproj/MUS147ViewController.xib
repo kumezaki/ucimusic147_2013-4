@@ -12,7 +12,6 @@
 		</object>
 		<array key="IBDocument.IntegratedClassDependencies">
 			<string>IBUISlider</string>
-			<string>IBUITapGestureRecognizer</string>
 			<string>IBUIButton</string>
 			<string>IBUISwitch</string>
 			<string>IBUIView</string>
@@ -41,7 +40,7 @@
 					<object class="IBUIButton" id="919821342">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 62}, {65, 238}}</string>
+						<string key="NSFrame">{{-152, 62}, {214, 238}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="603856634"/>
@@ -202,6 +201,7 @@
 						<string key="NSFrame">{{415, 62}, {65, 238}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -450,7 +450,6 @@
 				</object>
 				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 			</object>
-			<object class="IBUITapGestureRecognizer" id="1041478312"/>
 		</array>
 		<object class="IBObjectContainer" key="IBDocument.Objects">
 			<array class="NSMutableArray" key="connectionRecords">
@@ -583,16 +582,6 @@
 						<int key="IBEventType">7</int>
 					</object>
 					<int key="connectionID">169</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletCollectionConnection" key="connection">
-						<string key="label">gestureRecognizers</string>
-						<reference key="source" ref="32453673"/>
-						<reference key="destination" ref="1041478312"/>
-						<string key="cachedDesigntimeCollectionClassName">NSArray</string>
-						<bool key="addsContentToExistingCollection">YES</bool>
-					</object>
-					<int key="connectionID">188</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -826,7 +815,6 @@
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="32453673"/>
-							<reference ref="919821342"/>
 							<reference ref="455906124"/>
 							<reference ref="148212720"/>
 							<reference ref="380297142"/>
@@ -835,12 +823,13 @@
 							<reference ref="774379498"/>
 							<reference ref="50330924"/>
 							<reference ref="625795802"/>
-							<reference ref="219064220"/>
 							<reference ref="237677507"/>
 							<reference ref="76843475"/>
 							<reference ref="18605402"/>
 							<reference ref="603856634"/>
 							<reference ref="250699069"/>
+							<reference ref="219064220"/>
+							<reference ref="919821342"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -937,11 +926,6 @@
 						<reference key="object" ref="76843475"/>
 						<reference key="parent" ref="774585933"/>
 					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">186</int>
-						<reference key="object" ref="1041478312"/>
-						<reference key="parent" ref="0"/>
-					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -992,7 +976,6 @@
 				<string key="153.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="154.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="154.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="186.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="83.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="83.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>

@@ -44,18 +44,4 @@ extern MUS147AQPlayer* aqp;
     else
         NSLog(@"TWO or more");
 }
-
--(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
-{
-}
-
--(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [aqp getVoice:0].amp = 0.;
-}
-
--(void)touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
-{
-}
-
 @end
