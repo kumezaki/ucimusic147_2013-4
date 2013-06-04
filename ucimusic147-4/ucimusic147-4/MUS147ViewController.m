@@ -40,7 +40,8 @@ extern MUS147AQPlayer* aqp;
 {
     NSLog(@"%f %f,%f", acceleration.x, acceleration.y, acceleration.z);
     float speed;
-    
+    float amp;
+//    if([doubleTouchGesture numberOfTouches] > 0){
     if(acceleration.y > 0)
     {
         speed = -1 * acceleration.y + 1;
@@ -62,6 +63,28 @@ extern MUS147AQPlayer* aqp;
     for (int i = 1; i <= 12; i++) {
         [aqp getVoice:i].speed = speed;
     }
+//if(acceleration.z > 0.0)
+//{
+//    amp = acceleration.z;
+//    
+//    if(amp < 0.5)
+//        amp = 0.5;
+//}
+//
+//else if(acceleration.z == 0)
+//amp = 0.5;
+//
+//else if(acceleration.z < 0)
+//{
+//    amp = -1 * acceleration.z;
+//    
+//    if(amp < 0.5)
+//        amp = 0.5;
+//}
+//for (int i = 1; i <= 12; i++) {
+//    [aqp getVoice:i].amp = amp;
+//}
+//    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -110,12 +133,12 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setCsKey:(id)sender
 {
     if ([doubleTouchGesture numberOfTouches] == 2) {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_RED.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:0].freq = 277.183;
         [aqp getVoice:0].amp = 0.1;
     }
     else {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:2].fID = 2;
         [aqp getVoice:2].speed = 1.;
         [aqp getVoice:2].amp = 0.5;
@@ -138,12 +161,12 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setDsKey:(id)sender
 {
     if ([doubleTouchGesture numberOfTouches] == 2) {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_RED.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:0].freq = 311.127;
         [aqp getVoice:0].amp = 0.1;
     }
     else {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:4].fID = 4;
         [aqp getVoice:4].speed = 1.;
         [aqp getVoice:4].amp = 0.5;
@@ -180,12 +203,12 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setFsKey:(id)sender
 {
     if ([doubleTouchGesture numberOfTouches] == 2) {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_RED.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:0].freq = 369.994;
         [aqp getVoice:0].amp = 0.1;    
     }
     else {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:7].fID = 7;
         [aqp getVoice:7].speed = 1.;
         [aqp getVoice:7].amp = 0.5;
@@ -208,12 +231,12 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setGsKey:(id)sender
 {
     if ([doubleTouchGesture numberOfTouches] == 2) {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_RED.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:0].freq = 415.305;
         [aqp getVoice:0].amp = 0.1;
     }
     else {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:9].fID = 9;
         [aqp getVoice:9].speed = 1.;
         [aqp getVoice:9].amp = 0.5;
@@ -236,12 +259,12 @@ extern MUS147AQPlayer* aqp;
 -(IBAction)setAsKey:(id)sender
 {
     if ([doubleTouchGesture numberOfTouches] == 2) {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_RED.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:0].freq = 466.164;
         [aqp getVoice:0].amp = 0.1;
     }
     else {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:11].fID = 11;
         [aqp getVoice:11].speed = 1.;
         [aqp getVoice:11].amp = 0.5;
