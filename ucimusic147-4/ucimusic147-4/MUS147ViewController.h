@@ -53,6 +53,18 @@
 -(IBAction)setBKey:(id)sender;
 
 //releasing
--(IBAction)release:(id)sender;
+-(IBAction)releaseC:(id)sender;
+-(IBAction)releaseCs:(id)sender;
+-(IBAction)releaseD:(id)sender;
+-(IBAction)releaseDs:(id)sender;
+-(IBAction)releaseE:(id)sender;
+-(IBAction)releaseF:(id)sender;
+-(IBAction)releaseFs:(id)sender;
+-(IBAction)releaseG:(id)sender;
+-(IBAction)releaseGs:(id)sender;
+-(IBAction)releaseA:(id)sender;
+-(IBAction)releaseAs:(id)sender;
+-(IBAction)releaseB:(id)sender;
+
 
 @end

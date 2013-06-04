@@ -15,7 +15,7 @@
 #define kNumBuffers     3
 
 // number of possible voices
-#define kNumVoices      2
+#define kNumVoices      13
 
 // sample rate
 #define kSR				22050.
