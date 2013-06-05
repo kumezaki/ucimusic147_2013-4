@@ -34,6 +34,18 @@
 		B8841F111756BD3700BAFAAB /* PianoKey_RED.png in Resources */ = {isa = PBXBuildFile; fileRef = B8841F0F1756BD3700BAFAAB /* PianoKey_RED.png */; };
 		B8FE88181756D2020002DC66 /* MUS147AQRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE88171756D2020002DC66 /* MUS147AQRecorder.m */; };
 		B8FE881D1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FE881C1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m */; };
+		CE423AAC175FF0E00051917B /* 1.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA0175FF0E00051917B /* 1.aif */; };
+		CE423AAD175FF0E00051917B /* 2.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA1175FF0E00051917B /* 2.aif */; };
+		CE423AAE175FF0E00051917B /* 3.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA2175FF0E00051917B /* 3.aif */; };
+		CE423AAF175FF0E00051917B /* 4.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA3175FF0E00051917B /* 4.aif */; };
+		CE423AB0175FF0E00051917B /* 5.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA4175FF0E00051917B /* 5.aif */; };
+		CE423AB1175FF0E00051917B /* 6.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA5175FF0E00051917B /* 6.aif */; };
+		CE423AB2175FF0E00051917B /* 7.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA6175FF0E00051917B /* 7.aif */; };
+		CE423AB3175FF0E00051917B /* 8.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA7175FF0E00051917B /* 8.aif */; };
+		CE423AB4175FF0E00051917B /* 9.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA8175FF0E00051917B /* 9.aif */; };
+		CE423AB5175FF0E00051917B /* 10.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AA9175FF0E00051917B /* 10.aif */; };
+		CE423AB6175FF0E00051917B /* 11.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AAA175FF0E00051917B /* 11.aif */; };
+		CE423AB7175FF0E00051917B /* 12.aif in Resources */ = {isa = PBXBuildFile; fileRef = CE423AAB175FF0E00051917B /* 12.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +89,18 @@
 		B8FE881A1756D28A0002DC66 /* MUS147AQShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147AQShared.h; sourceTree = "<group>"; };
 		B8FE881B1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUS147Voice_Sample_Mem.h; sourceTree = "<group>"; };
 		B8FE881C1756D2BA0002DC66 /* MUS147Voice_Sample_Mem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUS147Voice_Sample_Mem.m; sourceTree = "<group>"; };
+		CE423AA0175FF0E00051917B /* 1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.aif; path = "Voice Sample AIF/1.aif"; sourceTree = "<group>"; };
+		CE423AA1175FF0E00051917B /* 2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2.aif; path = "Voice Sample AIF/2.aif"; sourceTree = "<group>"; };
+		CE423AA2175FF0E00051917B /* 3.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 3.aif; path = "Voice Sample AIF/3.aif"; sourceTree = "<group>"; };
+		CE423AA3175FF0E00051917B /* 4.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4.aif; path = "Voice Sample AIF/4.aif"; sourceTree = "<group>"; };
+		CE423AA4175FF0E00051917B /* 5.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 5.aif; path = "Voice Sample AIF/5.aif"; sourceTree = "<group>"; };
+		CE423AA5175FF0E00051917B /* 6.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 6.aif; path = "Voice Sample AIF/6.aif"; sourceTree = "<group>"; };
+		CE423AA6175FF0E00051917B /* 7.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 7.aif; path = "Voice Sample AIF/7.aif"; sourceTree = "<group>"; };
+		CE423AA7175FF0E00051917B /* 8.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 8.aif; path = "Voice Sample AIF/8.aif"; sourceTree = "<group>"; };
+		CE423AA8175FF0E00051917B /* 9.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 9.aif; path = "Voice Sample AIF/9.aif"; sourceTree = "<group>"; };
+		CE423AA9175FF0E00051917B /* 10.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 10.aif; path = "Voice Sample AIF/10.aif"; sourceTree = "<group>"; };
+		CE423AAA175FF0E00051917B /* 11.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 11.aif; path = "Voice Sample AIF/11.aif"; sourceTree = "<group>"; };
+		CE423AAB175FF0E00051917B /* 12.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = 12.aif; path = "Voice Sample AIF/12.aif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +179,18 @@
 		21A4B8A9172C283000E1FACA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CE423AA0175FF0E00051917B /* 1.aif */,
+				CE423AA1175FF0E00051917B /* 2.aif */,
+				CE423AA2175FF0E00051917B /* 3.aif */,
+				CE423AA3175FF0E00051917B /* 4.aif */,
+				CE423AA4175FF0E00051917B /* 5.aif */,
+				CE423AA5175FF0E00051917B /* 6.aif */,
+				CE423AA6175FF0E00051917B /* 7.aif */,
+				CE423AA7175FF0E00051917B /* 8.aif */,
+				CE423AA8175FF0E00051917B /* 9.aif */,
+				CE423AA9175FF0E00051917B /* 10.aif */,
+				CE423AAA175FF0E00051917B /* 11.aif */,
+				CE423AAB175FF0E00051917B /* 12.aif */,
 				B8841F0E1756BD3700BAFAAB /* PianoKey_Large_RED.png */,
 				B8841F0F1756BD3700BAFAAB /* PianoKey_RED.png */,
 				5CAB0233174602E3001496B7 /* PianoKey_Large_BLU.png */,
@@ -236,6 +272,18 @@
 				5CAB0234174602E3001496B7 /* PianoKey_Large_BLU.png in Resources */,
 				B8841F101756BD3700BAFAAB /* PianoKey_Large_RED.png in Resources */,
 				B8841F111756BD3700BAFAAB /* PianoKey_RED.png in Resources */,
+				CE423AAC175FF0E00051917B /* 1.aif in Resources */,
+				CE423AAD175FF0E00051917B /* 2.aif in Resources */,
+				CE423AAE175FF0E00051917B /* 3.aif in Resources */,
+				CE423AAF175FF0E00051917B /* 4.aif in Resources */,
+				CE423AB0175FF0E00051917B /* 5.aif in Resources */,
+				CE423AB1175FF0E00051917B /* 6.aif in Resources */,
+				CE423AB2175FF0E00051917B /* 7.aif in Resources */,
+				CE423AB3175FF0E00051917B /* 8.aif in Resources */,
+				CE423AB4175FF0E00051917B /* 9.aif in Resources */,
+				CE423AB5175FF0E00051917B /* 10.aif in Resources */,
+				CE423AB6175FF0E00051917B /* 11.aif in Resources */,
+				CE423AB7175FF0E00051917B /* 12.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
