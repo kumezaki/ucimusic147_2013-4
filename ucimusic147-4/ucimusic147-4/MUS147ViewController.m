@@ -38,7 +38,7 @@ extern MUS147AQPlayer* aqp;
 
 -(void)accelerometer: (UIAccelerometer *)accelerometer didAccelerate: (UIAcceleration *)acceleration
 {
-    NSLog(@"%f %f,%f", acceleration.x, acceleration.y, acceleration.z);
+//    NSLog(@"%f %f,%f", acceleration.x, acceleration.y, acceleration.z);
     float speed;
     float amp;
 //    if([doubleTouchGesture numberOfTouches] > 0){

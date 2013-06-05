@@ -38,13 +38,13 @@
 					<object class="IBUIButton" id="919821342">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{0, 62}, {65, 238}}</string>
+						<string key="NSFrameSize">{68, 300}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="603856634"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<array key="IBUIGestureRecognizers"/>
+						<array key="IBUIGestureRecognizers" id="0"/>
 						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
 							<integer value="5" key="IBUIAccessibilityTraits"/>
 						</object>
@@ -82,7 +82,7 @@
 					<object class="IBUIButton" id="455906124">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{70, 62}, {65, 238}}</string>
+						<string key="NSFrame">{{68, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="774379498"/>
@@ -105,7 +105,7 @@
 					<object class="IBUIButton" id="148212720">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{139, 62}, {65, 238}}</string>
+						<string key="NSFrame">{{137, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="32453673"/>
@@ -128,13 +128,13 @@
 					<object class="IBUIButton" id="32453673">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{209, 62}, {65, 238}}</string>
+						<string key="NSFrame">{{206, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="250699069"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
-						<array key="IBUIGestureRecognizers" id="0"/>
+						<reference key="IBUIGestureRecognizers" ref="0"/>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
@@ -152,7 +152,7 @@
 					<object class="IBUIButton" id="380297142">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{278, 62}, {65, 238}}</string>
+						<string key="NSFrame">{{275, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="50330924"/>
@@ -175,7 +175,7 @@
 					<object class="IBUIButton" id="794694114">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{347, 62}, {65, 238}}</string>
+						<string key="NSFrame">{{343, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="625795802"/>
@@ -198,7 +198,7 @@
 					<object class="IBUIButton" id="89725889">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{415, 62}, {65, 238}}</string>
+						<string key="NSFrame">{{412, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
@@ -221,7 +221,7 @@
 					<object class="IBUIButton" id="603856634">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{32, 60}, {59, 143}}</string>
+						<string key="NSFrame">{{33, 0}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="455906124"/>
@@ -253,7 +253,7 @@
 					<object class="IBUIButton" id="774379498">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 60}, {59, 143}}</string>
+						<string key="NSFrame">{{114, 0}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="148212720"/>
@@ -276,7 +276,7 @@
 					<object class="IBUIButton" id="250699069">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{235, 60}, {59, 143}}</string>
+						<string key="NSFrame">{{235, 0}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="380297142"/>
@@ -299,7 +299,7 @@
 					<object class="IBUIButton" id="50330924">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{315, 60}, {59, 143}}</string>
+						<string key="NSFrame">{{313, 0}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="794694114"/>
@@ -325,7 +325,7 @@
 					<object class="IBUIButton" id="625795802">
 						<reference key="NSNextResponder" ref="774585933"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{395, 60}, {59, 143}}</string>
+						<string key="NSFrame">{{392, 0}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="89725889"/>
@@ -358,7 +358,7 @@
 					</object>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
-				<array key="IBUIGestureRecognizers"/>
+				<reference key="IBUIGestureRecognizers" ref="0"/>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 					<int key="IBUIInterfaceOrientation">3</int>
@@ -981,11 +981,6 @@
 						<int key="objectID">6</int>
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="32453673"/>
-							<reference ref="455906124"/>
-							<reference ref="148212720"/>
-							<reference ref="380297142"/>
-							<reference ref="794694114"/>
 							<reference ref="89725889"/>
 							<reference ref="774379498"/>
 							<reference ref="50330924"/>
@@ -993,6 +988,11 @@
 							<reference ref="250699069"/>
 							<reference ref="603856634"/>
 							<reference ref="919821342"/>
+							<reference ref="455906124"/>
+							<reference ref="148212720"/>
+							<reference ref="32453673"/>
+							<reference ref="380297142"/>
+							<reference ref="794694114"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -1085,10 +1085,10 @@
 				<real value="1" key="107.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="111.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="111.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="1" key="111.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="111.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="115.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="115.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="1" key="115.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="115.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="119.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="119.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="1" key="119.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
@@ -1099,7 +1099,7 @@
 				<boolean value="NO" key="132.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="132.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="0.0" key="132.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
-				<real value="1" key="132.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="132.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="133.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="133.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="0.0" key="133.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
@@ -1115,7 +1115,7 @@
 				<string key="6.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<boolean value="NO" key="83.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="83.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="1" key="83.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="0.0" key="83.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<boolean value="NO" key="98.IBNSViewMetadataTranslatesAutoresizingMaskIntoConstraints"/>
 				<string key="98.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="2" key="98.IBUIButtonInspectorSelectedEdgeInsetMetadataKey"/>
@@ -1376,9 +1376,9 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="PianoKey_BLK.png">{61, 145}</string>
-			<string key="PianoKey_BLU.png">{61, 145}</string>
-			<string key="PianoKey_Large_BLU.png">{66, 240}</string>
+			<string key="PianoKey_BLK.png">{59, 176}</string>
+			<string key="PianoKey_BLU.png">{59, 176}</string>
+			<string key="PianoKey_Large_BLU.png">{68, 300}</string>
 		</dictionary>
 		<bool key="IBDocument.UseAutolayout">YES</bool>
 		<string key="IBCocoaTouchPluginVersion">933</string>
