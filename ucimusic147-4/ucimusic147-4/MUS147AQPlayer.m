@@ -43,6 +43,7 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 
 @implementation MUS147AQPlayer
 
+
 - (void)dealloc {
 
 	[self stop];
@@ -167,6 +168,11 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 
 -(MUS147Voice*)getVoice:(UInt8)pos
 {
+    return voice[pos];
+}
+-(MUS147Voice*)setVoice:(UInt8)pos:(MUS147Voice*)v
+{
+    voice[pos] = v;
     return voice[pos];
 }
 

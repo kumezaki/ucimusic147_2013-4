@@ -11,6 +11,9 @@
 #import "MUS147AQPlayer.h"
 extern MUS147AQPlayer* aqp;
 
+#import "MUS147AQRecorder.h"
+extern MUS147AQRecorder* aqr;
+
 @interface MUS147ViewController () 
 
 @end
@@ -123,8 +126,11 @@ extern MUS147AQPlayer* aqp;
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:0].freq = 261.626;
         [aqp getVoice:0].amp = 0.1;
+        [aqr start];
+        [aqp setVoice:1 : [aqr voice]];
     }
     else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:1].fID = 1;
         [aqp getVoice:1].speed = 1.;
         [aqp getVoice:1].amp = 0.5;

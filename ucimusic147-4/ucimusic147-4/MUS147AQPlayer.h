@@ -35,6 +35,7 @@
 -(OSStatus)stop;
 
 -(MUS147Voice*)getVoice:(UInt8)pos;
+-(MUS147Voice*)setVoice:(UInt8)pos:(MUS147Voice*)v;
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples;
 
