@@ -31,7 +31,7 @@ extern MUS147AQRecorder* aqr;
     
     aqp = [[MUS147AQPlayer alloc] init];
     aqr = [[MUS147AQRecorder alloc] init]; 
-    [aqp start];//Not in professor's version
+    //[aqp start];//Not in professor's version
     
     aqr.voice = (MUS147Voice_Sample_Mem*)[aqp getRecordVoice];
     

@@ -55,7 +55,7 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     self = [super init];
     
 	aqp = self;
-    
+    //[[MUS147Voice_Synth alloc] init];
         voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
     
     for (UInt8 i = 0; i < kNumVoices; i++)
@@ -64,10 +64,10 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
         switch (i)
         {
             case 0:
-                voice[i] = [[MUS147Voice_Synth alloc] init];
+                voice[i] = voice_samp_mem[0];
                 break;
             case 1:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = voice_samp_mem[0];
                 break;
             case 2:
                 voice[i] = [[MUS147Voice_Sample alloc] init];
@@ -188,7 +188,9 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 {
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
-        [voice[i] fillAudioBuffer:buffer:num_samples];
+        if (voice[i] != nil){
+            [voice[i] fillAudioBuffer:buffer:num_samples];
+        }
     }
 }
 

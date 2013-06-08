@@ -90,15 +90,15 @@ void AQRecBufferCallback (void                                *inUserData,
 	OSStatus result = noErr;
 	
     // if we have no queue, create one now
-    if (queue == nil)
+    if (queue == nil){
         [self setup];
-    
+        
+    }
     // prime the queue with some data before starting
     for (SInt32 i = 0; i < kNumBuffers_Recording; ++i)
         AudioQueueEnqueueBuffer(queue, buffers[i],0,NULL);
 	
     result = AudioQueueStart(queue, nil);
-	
 	return result;
 }
 

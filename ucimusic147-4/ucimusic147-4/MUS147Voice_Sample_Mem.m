@@ -26,7 +26,7 @@
 		sampleMemory[writePos++] = buffer[i];
 }
 
--(void)addToAudioBuffer:(Float64*)buffer :(UInt32)num_samples
+-(void)fillAudioBuffer:(Float64*)buffer :(UInt32)num_samples
 {
     if (writePos == 0) return;
     

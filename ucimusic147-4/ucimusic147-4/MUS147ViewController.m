@@ -127,23 +127,25 @@ extern MUS147AQRecorder* aqr;
 -(IBAction)sampleRecStop:(id)sender
 {
     [aqr stop];
+
 }
 
 -(IBAction)setCKey:(id)sender
 {
-    if ([doubleTouchGesture numberOfTouches] == 2) {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
-        [aqp getVoice:0].freq = 261.626;
-        [aqp getVoice:0].amp = 0.1;
-        [aqr start];
-        [aqp setVoice:1 : [aqr voice]];
-    }
-    else {
-        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
-        [aqp getVoice:1].fID = 1;
-        [aqp getVoice:1].speed = 1.;
-        [aqp getVoice:1].amp = 0.5;
-    }
+//    if ([doubleTouchGesture numberOfTouches] == 2) {
+//        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+//        [aqp getVoice:0].freq = 261.626;
+//        [aqp getVoice:0].amp = 0.1;
+        [aqp setVoice:1:[aqr voice]];
+    [aqp getVoice:1].speed = 1;
+    [aqp getVoice:1].amp = 0.5;
+//    }
+//    else {
+//        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+//        [aqp getVoice:1].fID = 1;
+//        [aqp getVoice:1].speed = 1.;
+//        [aqp getVoice:1].amp = 0.5;
+//    }
 }
 -(IBAction)setCsKey:(id)sender
 {

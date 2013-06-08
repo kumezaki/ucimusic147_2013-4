@@ -40,6 +40,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrameSize">{68, 300}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="603856634"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -83,6 +84,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{68, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="774379498"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -105,6 +107,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{137, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="32453673"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -127,6 +130,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{206, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="250699069"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -150,6 +154,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{275, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="50330924"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -172,6 +177,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{343, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="625795802"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -194,6 +200,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{412, 0}, {68, 300}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -216,6 +223,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{33, -5}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="455906124"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -247,6 +255,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{114, -5}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="148212720"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -269,6 +278,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{235, -5}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="380297142"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -291,6 +301,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{313, -5}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="794694114"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -316,6 +327,7 @@
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{392, -5}, {59, 176}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="89725889"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -336,6 +348,7 @@
 				</array>
 				<string key="NSFrame">{{0, 20}, {480, 300}}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="919821342"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -411,22 +424,6 @@
 						<reference key="destination" ref="89725889"/>
 					</object>
 					<int key="connectionID">131</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">dKey</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="455906124"/>
-					</object>
-					<int key="connectionID">137</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">eKey</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="148212720"/>
-					</object>
-					<int key="connectionID">138</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
@@ -568,75 +565,21 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">setDKey:</string>
-						<reference key="source" ref="455906124"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">1</int>
-					</object>
-					<int key="connectionID">164</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">releaseD:</string>
+						<string key="label">sampleRecStart:</string>
 						<reference key="source" ref="455906124"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">192</int>
+					<int key="connectionID">254</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">releaseD:</string>
-						<reference key="source" ref="455906124"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">4</int>
-					</object>
-					<int key="connectionID">205</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">setDKey:</string>
-						<reference key="source" ref="455906124"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">3</int>
-					</object>
-					<int key="connectionID">231</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">setEKey:</string>
-						<reference key="source" ref="148212720"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">1</int>
-					</object>
-					<int key="connectionID">166</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">releaseE:</string>
+						<string key="label">sampleRecStop:</string>
 						<reference key="source" ref="148212720"/>
 						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">7</int>
 					</object>
-					<int key="connectionID">194</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">releaseE:</string>
-						<reference key="source" ref="148212720"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">4</int>
-					</object>
-					<int key="connectionID">206</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">setEKey:</string>
-						<reference key="source" ref="148212720"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">3</int>
-					</object>
-					<int key="connectionID">232</int>
+					<int key="connectionID">256</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -814,15 +757,6 @@
 						<string key="label">releaseDs:</string>
 						<reference key="source" ref="774379498"/>
 						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">193</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">releaseDs:</string>
-						<reference key="source" ref="774379498"/>
-						<reference key="destination" ref="372490531"/>
 						<int key="IBEventType">4</int>
 					</object>
 					<int key="connectionID">212</int>
@@ -835,6 +769,15 @@
 						<int key="IBEventType">3</int>
 					</object>
 					<int key="connectionID">238</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">releaseDs:</string>
+						<reference key="source" ref="774379498"/>
+						<reference key="destination" ref="372490531"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">255</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
@@ -1112,9 +1055,258 @@
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">251</int>
+			<int key="maxID">256</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">MUS147ViewController</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="releaseA:">id</string>
+						<string key="releaseAs:">id</string>
+						<string key="releaseB:">id</string>
+						<string key="releaseC:">id</string>
+						<string key="releaseCs:">id</string>
+						<string key="releaseD:">id</string>
+						<string key="releaseDs:">id</string>
+						<string key="releaseE:">id</string>
+						<string key="releaseF:">id</string>
+						<string key="releaseFs:">id</string>
+						<string key="releaseG:">id</string>
+						<string key="releaseGs:">id</string>
+						<string key="sampleRecStart:">id</string>
+						<string key="sampleRecStop:">id</string>
+						<string key="setAKey:">id</string>
+						<string key="setAmp0:">id</string>
+						<string key="setAmp1:">id</string>
+						<string key="setAsKey:">id</string>
+						<string key="setBKey:">id</string>
+						<string key="setCKey:">id</string>
+						<string key="setCsKey:">id</string>
+						<string key="setDKey:">id</string>
+						<string key="setDsKey:">id</string>
+						<string key="setEKey:">id</string>
+						<string key="setFKey:">id</string>
+						<string key="setFreq0:">id</string>
+						<string key="setFreq1:">id</string>
+						<string key="setFsKey:">id</string>
+						<string key="setGKey:">id</string>
+						<string key="setGsKey:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="releaseA:">
+							<string key="name">releaseA:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseAs:">
+							<string key="name">releaseAs:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseB:">
+							<string key="name">releaseB:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseC:">
+							<string key="name">releaseC:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseCs:">
+							<string key="name">releaseCs:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseD:">
+							<string key="name">releaseD:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseDs:">
+							<string key="name">releaseDs:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseE:">
+							<string key="name">releaseE:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseF:">
+							<string key="name">releaseF:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseFs:">
+							<string key="name">releaseFs:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseG:">
+							<string key="name">releaseG:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="releaseGs:">
+							<string key="name">releaseGs:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="sampleRecStart:">
+							<string key="name">sampleRecStart:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="sampleRecStop:">
+							<string key="name">sampleRecStop:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setAKey:">
+							<string key="name">setAKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setAmp0:">
+							<string key="name">setAmp0:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setAmp1:">
+							<string key="name">setAmp1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setAsKey:">
+							<string key="name">setAsKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setBKey:">
+							<string key="name">setBKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setCKey:">
+							<string key="name">setCKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setCsKey:">
+							<string key="name">setCsKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setDKey:">
+							<string key="name">setDKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setDsKey:">
+							<string key="name">setDsKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setEKey:">
+							<string key="name">setEKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setFKey:">
+							<string key="name">setFKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setFreq0:">
+							<string key="name">setFreq0:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setFreq1:">
+							<string key="name">setFreq1:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setFsKey:">
+							<string key="name">setFsKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setGKey:">
+							<string key="name">setGKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="setGsKey:">
+							<string key="name">setGsKey:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="aKey">UIButton</string>
+						<string key="amp0Slider">UISlider</string>
+						<string key="amp1Slider">UISlider</string>
+						<string key="asKey">UIButton</string>
+						<string key="bKey">UIButton</string>
+						<string key="cKey">UIButton</string>
+						<string key="csKey">UIButton</string>
+						<string key="dKey">UIButton</string>
+						<string key="dsKey">UIButton</string>
+						<string key="eKey">UIButton</string>
+						<string key="fKey">UIButton</string>
+						<string key="freq0Slider">UISlider</string>
+						<string key="freq1Slider">UISlider</string>
+						<string key="fsKey">UIButton</string>
+						<string key="gKey">UIButton</string>
+						<string key="gsKey">UIButton</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="aKey">
+							<string key="name">aKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="amp0Slider">
+							<string key="name">amp0Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="amp1Slider">
+							<string key="name">amp1Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="asKey">
+							<string key="name">asKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="bKey">
+							<string key="name">bKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="cKey">
+							<string key="name">cKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="csKey">
+							<string key="name">csKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="dKey">
+							<string key="name">dKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="dsKey">
+							<string key="name">dsKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="eKey">
+							<string key="name">eKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="fKey">
+							<string key="name">fKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="freq0Slider">
+							<string key="name">freq0Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="freq1Slider">
+							<string key="name">freq1Slider</string>
+							<string key="candidateClassName">UISlider</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="fsKey">
+							<string key="name">fsKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="gKey">
+							<string key="name">gKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="gsKey">
+							<string key="name">gsKey</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/MUS147ViewController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
