@@ -67,7 +67,7 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
                 voice[i] = voice_samp_mem[0];
                 break;
             case 1:
-                voice[i] = voice_samp_mem[0];
+                voice[i] = [[MUS147Voice_Sample alloc] init];
                 break;
             case 2:
                 voice[i] = [[MUS147Voice_Sample alloc] init];

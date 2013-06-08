@@ -121,11 +121,15 @@ extern MUS147AQRecorder* aqr;
 
 -(IBAction)sampleRecStart:(id)sender
 {
-    [aqr start];
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted]; // see note below....
+        [aqr start];
+    }
 }
 
 -(IBAction)sampleRecStop:(id)sender
 {
+    [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted]; // note black keys mapped to this will get wrong picture...!
     [aqr stop];
 
 }
@@ -136,13 +140,13 @@ extern MUS147AQRecorder* aqr;
 //        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
 //        [aqp getVoice:0].freq = 261.626;
 //        [aqp getVoice:0].amp = 0.1;
-        [aqp setVoice:1:[aqr voice]];
-    [aqp getVoice:1].speed = 1;
-    [aqp getVoice:1].amp = 0.5;
+        [aqp setVoice:0:[aqr voice]];
+        [aqp getVoice:0].speed = 0.5;
+        [aqp getVoice:0].amp = 0.5;
 //    }
 //    else {
-//        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
-//        [aqp getVoice:1].fID = 1;
+        
+        [aqp getVoice:0].fID = 1;
 //        [aqp getVoice:1].speed = 1.;
 //        [aqp getVoice:1].amp = 0.5;
 //    }
