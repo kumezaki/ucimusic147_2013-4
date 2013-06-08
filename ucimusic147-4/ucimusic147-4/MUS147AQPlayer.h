@@ -26,6 +26,7 @@
 	AudioQueueBufferRef			buffers[kNumBuffers];
 	AudioStreamBasicDescription	dataFormat;
     
+    MUS147Voice* voice_samp_mem[1];
     MUS147Voice* voice[kNumVoices];
 }
 
@@ -37,6 +38,9 @@
 -(MUS147Voice*)getVoice:(UInt8)pos;
 -(MUS147Voice*)setVoice:(UInt8)pos:(MUS147Voice*)v;
 
+-(MUS147Voice*)getRecordVoice;
+
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples;
+
 
 @end

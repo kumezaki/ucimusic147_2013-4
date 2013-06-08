@@ -10,6 +10,7 @@
 
 #import "MUS147Voice_Sample.h"
 #import "MUS147Voice_Synth.h"
+#import "MUS147Voice_Sample_Mem.h"
 
 MUS147AQPlayer *aqp = nil;
 
@@ -54,6 +55,8 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     self = [super init];
     
 	aqp = self;
+    
+        voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
     
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
@@ -175,6 +178,11 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     voice[pos] = v;
     return voice[pos];
 }
+-(MUS147Voice*)getRecordVoice
+{
+    return voice[0];
+}
+
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples
 {

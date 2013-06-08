@@ -31,6 +31,8 @@
     IBOutlet UIButton* asKey;
     IBOutlet UIButton* bKey;
 }
+
+
 @property (nonatomic, copy) UITapGestureRecognizer *doubleTouchGesture; //which is better copy or retain??
 // methods here
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation;
@@ -38,6 +40,9 @@
 -(IBAction)setAmp0:(id)sender;
 -(IBAction)setFreq1:(id)sender;
 -(IBAction)setAmp1:(id)sender;
+
+-(IBAction)sampleRecStart:(id)sender;
+-(IBAction)sampleRecStop:(id)sender;
 
 -(IBAction)setCKey:(id)sender;
 -(IBAction)setCsKey:(id)sender;

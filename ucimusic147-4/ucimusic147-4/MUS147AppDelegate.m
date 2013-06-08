@@ -13,6 +13,9 @@
 #import "MUS147AQPlayer.h"
 extern MUS147AQPlayer *aqp;
 
+#import "MUS147AQRecorder.h"
+extern MUS147AQRecorder* aqr;
+
 @implementation MUS147AppDelegate
 
 @synthesize window;
@@ -27,7 +30,10 @@ extern MUS147AQPlayer *aqp;
     [self.window makeKeyAndVisible];
     
     aqp = [[MUS147AQPlayer alloc] init];
-    [aqp start];
+    aqr = [[MUS147AQRecorder alloc] init]; 
+    [aqp start];//Not in professor's version
+    
+    aqr.voice = (MUS147Voice_Sample_Mem*)[aqp getRecordVoice];
     
     return YES;
 }

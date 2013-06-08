@@ -119,6 +119,15 @@ extern MUS147AQRecorder* aqr;
     //[aqp getVoice:0].amp = amp1Slider.value;
 }
 
+-(IBAction)sampleRecStart:(id)sender
+{
+    [aqr start];
+}
+
+-(IBAction)sampleRecStop:(id)sender
+{
+    [aqr stop];
+}
 
 -(IBAction)setCKey:(id)sender
 {

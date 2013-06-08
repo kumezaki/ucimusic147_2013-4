@@ -7,6 +7,7 @@
 //
 
 #import "MUS147Voice_Synth.h"
+#import "MUS147AQPlayer.h"
 
 @implementation MUS147Voice_Synth
 
