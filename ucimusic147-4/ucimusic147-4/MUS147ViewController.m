@@ -141,7 +141,7 @@ extern MUS147AQRecorder* aqr;
 //        [aqp getVoice:0].freq = 261.626;
 //        [aqp getVoice:0].amp = 0.1;
         [aqp setVoice:0:[aqr voice]];
-        [aqp getVoice:0].speed = 0.5;
+        [aqp getVoice:0].speed = 1;
         [aqp getVoice:0].amp = 0.5;
 //    }
 //    else {
