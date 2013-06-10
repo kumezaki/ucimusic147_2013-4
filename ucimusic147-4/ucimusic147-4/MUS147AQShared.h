@@ -8,4 +8,4 @@
 
 // sample rate 
 
-#define kSR				22050.
+#define kSR				11025.

@@ -136,20 +136,19 @@ extern MUS147AQRecorder* aqr;
 
 -(IBAction)setCKey:(id)sender
 {
-//    if ([doubleTouchGesture numberOfTouches] == 2) {
-//        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
-//        [aqp getVoice:0].freq = 261.626;
-//        [aqp getVoice:0].amp = 0.1;
-        [aqp setVoice:0:[aqr voice]];
-        [aqp getVoice:0].speed = 1;
-        [aqp getVoice:0].amp = 0.5;
-//    }
-//    else {
+    if ([doubleTouchGesture numberOfTouches] == 2) {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        [aqp getVoice:0].freq = 261.626;
+        [aqp getVoice:0].amp = 0.8;
         
-        [aqp getVoice:0].fID = 1;
-//        [aqp getVoice:1].speed = 1.;
-//        [aqp getVoice:1].amp = 0.5;
-//    }
+    }
+    else {
+        [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:1:[aqr voice]];
+        [aqp getVoice:1].fID = 1;
+        [aqp getVoice:1].speed = 1.;
+        [aqp getVoice:1].amp = 0.5;
+    }
 }
 -(IBAction)setCsKey:(id)sender
 {
@@ -160,6 +159,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:2:[aqr voice]];
         [aqp getVoice:2].fID = 2;
         [aqp getVoice:2].speed = 1.;
         [aqp getVoice:2].amp = 0.5;
@@ -174,6 +174,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:3:[aqr voice]];
         [aqp getVoice:3].fID = 3;
         [aqp getVoice:3].speed = 1.;
         [aqp getVoice:3].amp = 0.5;
@@ -188,6 +189,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:4:[aqr voice]];
         [aqp getVoice:4].fID = 4;
         [aqp getVoice:4].speed = 1.;
         [aqp getVoice:4].amp = 0.5;
@@ -202,6 +204,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:5:[aqr voice]];
         [aqp getVoice:5].fID = 5;
         [aqp getVoice:5].speed = 1.;
         [aqp getVoice:5].amp = 0.5;
@@ -216,6 +219,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:6:[aqr voice]];
         [aqp getVoice:6].fID = 6;
         [aqp getVoice:6].speed = 1.;
         [aqp getVoice:6].amp = 0.5;
@@ -230,6 +234,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:7:[aqr voice]];
         [aqp getVoice:7].fID = 7;
         [aqp getVoice:7].speed = 1.;
         [aqp getVoice:7].amp = 0.5;
@@ -244,6 +249,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:8:[aqr voice]];
         [aqp getVoice:8].fID = 8;
         [aqp getVoice:8].speed = 1.;
         [aqp getVoice:8].amp = 0.5;
@@ -258,6 +264,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:9:[aqr voice]];
         [aqp getVoice:9].fID = 9;
         [aqp getVoice:9].speed = 1.;
         [aqp getVoice:9].amp = 0.5;
@@ -272,6 +279,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:10:[aqr voice]];
         [aqp getVoice:10].fID = 10;
         [aqp getVoice:10].speed = 1.;
         [aqp getVoice:10].amp = 0.5;
@@ -286,6 +294,7 @@ extern MUS147AQRecorder* aqr;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:11:[aqr voice]];
         [aqp getVoice:11].fID = 11;
         [aqp getVoice:11].speed = 1.;
         [aqp getVoice:11].amp = 0.5;
@@ -296,10 +305,11 @@ extern MUS147AQRecorder* aqr;
     if ([doubleTouchGesture numberOfTouches] == 2) {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
         [aqp getVoice:0].freq = 493.883;
-        [aqp getVoice:0].amp = 0.1;
+        [aqp getVoice:0].amp = 0.8;
     }
     else {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_BLU.png"] forState:UIControlStateHighlighted];
+        [aqp setVoice:12:[aqr voice]];
         [aqp getVoice:12].fID = 12;
         [aqp getVoice:12].speed = 1.;
         [aqp getVoice:12].amp = 0.5;

@@ -56,7 +56,7 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
     
 	aqp = self;
     //[[MUS147Voice_Synth alloc] init];
-        voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
+       // voice_samp_mem[0] = [[MUS147Voice_Sample_Mem alloc] init];
     
     for (UInt8 i = 0; i < kNumVoices; i++)
     {
@@ -64,43 +64,43 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
         switch (i)
         {
             case 0:
-                voice[i] = voice_samp_mem[0];
+                voice[i] = [[MUS147Voice_Synth alloc] init];
                 break;
             case 1:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 2:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 3:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 4:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 5:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 6:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 7:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 8:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 9:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 10:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 11:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 12:
-                voice[i] = [[MUS147Voice_Sample alloc] init];
+                voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
 //            case 2:
 //               voice[i] = [[MUS147Voice_BLIT alloc] init];

@@ -18,7 +18,7 @@
 #define kNumVoices      13
 
 // sample rate
-#define kSR				22050.
+#define kSR				11025.
 
 @interface MUS147AQPlayer : NSObject {
 
@@ -26,7 +26,7 @@
 	AudioQueueBufferRef			buffers[kNumBuffers];
 	AudioStreamBasicDescription	dataFormat;
     
-    MUS147Voice* voice_samp_mem[1];
+    MUS147Voice* voice_samp_mem[kNumVoices];
     MUS147Voice* voice[kNumVoices];
 }
 
