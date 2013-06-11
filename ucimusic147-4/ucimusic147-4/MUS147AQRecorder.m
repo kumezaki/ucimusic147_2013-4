@@ -37,8 +37,10 @@ void AQRecBufferCallback (void                                *inUserData,
     
 	for (SInt32 i = 0; i < inNumberPacketDescriptions; i++)
 		buffer[i] = (Float64)in_buffer[i] / (SInt16)INT16_MAX;
-	
-	[aqr doAudioBuffer:buffer:inNumberPacketDescriptions];
+
+	@autoreleasepool {
+        [aqr doAudioBuffer:buffer:inNumberPacketDescriptions];
+    }
     
     AudioQueueEnqueueBuffer( inAQ, inAQBuffer, 0, NULL );
 }
@@ -115,8 +117,9 @@ void AQRecBufferCallback (void                                *inUserData,
 {
 //  NSLog(@"saveAudioBuffer %ld",writePos);
 
-    if (voice != nil)
+    if (voice != nil){
         [voice writeToSampleMemory:buffer:num_samples];
+    }
 }
 
 @end

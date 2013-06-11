@@ -173,14 +173,13 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
 {
     return voice[pos];
 }
--(MUS147Voice*)setVoice:(UInt8)pos:(MUS147Voice*)v
+-(void)setVoice:(UInt8)pos:(MUS147Voice_Sample_Mem*)v
 {
     voice[pos] = v;
-    return voice[pos];
 }
--(MUS147Voice*)getRecordVoice
+-(MUS147Voice*)getRecordVoice:(UInt8)pos
 {
-    return voice[0];
+    return voice[pos];
 }
 
 

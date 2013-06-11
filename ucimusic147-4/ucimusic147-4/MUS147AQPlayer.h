@@ -9,7 +9,7 @@
 #import <AudioToolbox/AudioToolbox.h>
 #import <Foundation/Foundation.h>
 
-#import "MUS147Voice.h"
+#import "MUS147Voice_Sample_Mem.h"
 
 // number of buffers used by system
 #define kNumBuffers     3
@@ -36,9 +36,9 @@
 -(OSStatus)stop;
 
 -(MUS147Voice*)getVoice:(UInt8)pos;
--(MUS147Voice*)setVoice:(UInt8)pos:(MUS147Voice*)v;
+-(void)setVoice:(UInt8)pos:(MUS147Voice_Sample_Mem*)v;
 
--(MUS147Voice*)getRecordVoice;
+-(MUS147Voice*)getRecordVoice:(UInt8)pos;
 
 -(void)fillAudioBuffer:(Float64*)buffer:(UInt32)num_samples;
 
