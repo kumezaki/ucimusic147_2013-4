@@ -137,6 +137,7 @@ extern MUS147AQRecorder* aqr;
 -(IBAction)setCKey:(id)sender
 {
     aqr.voice = (MUS147Voice_Sample_Mem*)[aqp getRecordVoice:1];
+    aqr.voice = [aqr.voice init]; 
     if ([doubleTouchGesture numberOfTouches] == 2) {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
         [aqr start];
