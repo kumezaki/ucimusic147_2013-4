@@ -67,6 +67,66 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
                 voice[i] = [[MUS147Voice_Synth alloc] init];
                 break;
             case 1:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 2:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 3:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 4:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 5:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 6:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 7:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 8:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 9:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 10:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 11:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+            case 12:
+                voice[i] = [[MUS147Voice_Sample alloc] init];
+                break;
+//            case 2:
+//               voice[i] = [[MUS147Voice_BLIT alloc] init];
+//                break;
+//            case 3:
+//                voice[i] = [[MUS147Voice_BLITSaw alloc] init];
+//                break;
+            default:
+                break;
+        }
+
+    }
+	
+	[self start];
+    
+	return self;
+}
+
+-(id)change: (UInt8)i
+{
+        switch (i)
+        {
+            case 0:
+                voice[i] = [[MUS147Voice_Synth alloc] init];
+                break;
+            case 1:
                 voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
             case 2:
@@ -102,23 +162,19 @@ void MUS147AQBufferCallback(void *inUserData, AudioQueueRef inAQ, AudioQueueBuff
             case 12:
                 voice[i] = [[MUS147Voice_Sample_Mem alloc] init];
                 break;
-//            case 2:
-//               voice[i] = [[MUS147Voice_BLIT alloc] init];
-//                break;
-//            case 3:
-//                voice[i] = [[MUS147Voice_BLITSaw alloc] init];
-//                break;
+                //            case 2:
+                //               voice[i] = [[MUS147Voice_BLIT alloc] init];
+                //                break;
+                //            case 3:
+                //                voice[i] = [[MUS147Voice_BLITSaw alloc] init];
+                //                break;
             default:
                 break;
-        }
-
+        
     }
-	
-	[self start];
     
-	return self;
+    return self;
 }
-
 -(void)setup
 {
 	dataFormat.mFormatID = kAudioFormatLinearPCM;

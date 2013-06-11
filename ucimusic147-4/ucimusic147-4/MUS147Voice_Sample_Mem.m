@@ -16,6 +16,9 @@
     
 	readPos = 0;
 	writePos = 0;
+//    
+//    for (int i = 0; i < 50000; i++)
+//		sampleMemory[i] = 0;
     
 	return self;
 }

@@ -31,6 +31,7 @@
 }
 
 -(void)setup;
+-(id)change:(UInt8)i;
 
 -(OSStatus)start;
 -(OSStatus)stop;
