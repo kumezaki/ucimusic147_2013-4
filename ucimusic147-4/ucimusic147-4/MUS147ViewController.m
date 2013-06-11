@@ -137,15 +137,22 @@ extern MUS147AQRecorder* aqr;
 -(IBAction)setCKey:(id)sender
 {
     aqr.voice = (MUS147Voice_Sample_Mem*)[aqp getRecordVoice:1];
-    aqr.voice = [aqr.voice init]; 
+    
     if ([doubleTouchGesture numberOfTouches] == 2) {
         [sender setImage:[UIImage imageNamed:@"PianoKey_Large_RED.png"] forState:UIControlStateHighlighted];
+        
+        //rewrite from beginning
+        aqr.voice = [aqr.voice init];
+        
         [aqr start];
         [aqp getVoice:0].freq = 261.626;
         [aqp getVoice:0].amp = 1;
         
     }
     else {
+        //go to beginning of recording
+        //[[aqp getVoice:1] rewind];
+        
         [aqp getVoice:1].fID = 1;
         [aqp getVoice:1].speed = 1.;
         [aqp getVoice:1].amp = 0.5;

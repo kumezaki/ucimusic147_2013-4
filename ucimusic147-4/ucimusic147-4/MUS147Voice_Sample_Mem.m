@@ -16,7 +16,13 @@
     
 	readPos = 0;
 	writePos = 0;
-	
+    
+	return self;
+}
+
+-(id)rewind
+{
+	readPos = 0;
 	return self;
 }
 
