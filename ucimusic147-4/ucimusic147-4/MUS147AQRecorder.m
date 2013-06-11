@@ -108,8 +108,9 @@ void AQRecBufferCallback (void                                *inUserData,
 {
 	OSStatus result = noErr;
 	
-    result = AudioQueueStop(queue, true);
-	
+    
+    //result = AudioQueueStop(queue, true);
+	result = AudioQueueReset(queue);
 	return result;
 }
 
